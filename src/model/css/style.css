@@ -89,6 +89,13 @@ body{
 
 /* -------------------------------- Buttons -------------------------------- */
 
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 .button_sign_in{
     width: 160px;
     height: 35px;
@@ -97,6 +104,10 @@ body{
     margin-right: 19%;
     background-color: var(--color-white);
     color: var(--color-light-blue);
+}
+
+.button_sign_in:link, :visited, :hover, :active{
+    text-decoration: none;
 }
 
 .button_confirm{
@@ -111,14 +122,24 @@ body{
     font-weight: 700;
 }
 
+.button_confirm:link, :visited, :hover, :active{
+    text-decoration: none;
+}
+
 .button_appointment{
     margin: 8px 0;
     padding: 5px 10px;
-    border: none;
+    border: 1px solid var(--color-light-blue);
     border-radius: 5px;
     background-color: var(--color-light-blue);
     color: var(--color-white);
     font-weight: 700;
+    text-decoration: none;
+}
+
+.button_appointment:active, :visited{
+    background-color: var(--color-white);
+    color: var(--color-light-blue);
 }
 
 .button_config{
@@ -128,6 +149,7 @@ body{
     border-radius: 5px;
     background-color: var(--color-white);
     color: var(--color-light-blue);    
+    text-decoration: none;
 }
 
 .link_back{
