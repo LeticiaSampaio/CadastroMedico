@@ -1,4 +1,6 @@
-<?php include "templates/header.php"; ?>
+<?php include "../templates/header.php"; ?>
+
+<?php require_once ('../controller/EditarMedicoController.php');?>
 
 <div id="body_wrapper">
     <form class="div_form">
@@ -10,6 +12,6 @@
         <label for="nova_senha" class="label_form">Nova senha</label>
         <input id="nova_senha" name="nova_senha" class="input_form" placeholder="Escolha uma nova senha forte e segura">
         <submit type="submit" name="submit" value="submit" class="button button_confirm">Atualizar cadastro</submit>
-        <a href="index.php" class="link_back">Voltar para a Página inicial</a>
+        <a href="../index.php" class="link_back">Voltar para a Página inicial</a>
     </form>
 </div>

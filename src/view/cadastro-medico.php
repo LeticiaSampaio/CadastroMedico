@@ -1,4 +1,10 @@
-<?php include "templates/header.php"; ?>
+<?php include "../templates/header.php"; ?>
+
+<?php require_once ('../controller/CadastroMedicoController.php');?>
+
+<?php if (isset($_POST['submit']) && $statement) { ?>
+  > <?php echo $_POST['name']; ?> successfully added.
+<?php } ?>
 
 <div id="body_wrapper">
     <form method="post" class="div_form">
@@ -10,6 +16,6 @@
         <label for="senha" class="label_form">Senha</label>
         <input type="text" id="senha" name="senha" class="input_form" placeholder="Escolha uma senha forte e segura">
         <submit type="submit" name="submit" value="submit" class="button button_confirm">Realizar cadastro</submit>
-        <a href="index.php" class="link_back">Voltar para a Página inicial</a>
+        <a href="../index.php" class="link_back">Voltar para a Página inicial</a>
     </form>
 </div>

@@ -1,4 +1,6 @@
-<?php include "templates/header.php"; ?>
+<?php include "../templates/header.php"; ?>
+
+<?php require_once ('../controller/EditarHorarioController.php');?>
 
 <div id="body_wrapper">
     <div class="div_form">
@@ -8,7 +10,7 @@
         <label for="data_hora" class="label_form">Data e Hora</label>
         <input id="data_hora" name="data_hora" class="input_form" placeholder="exemplo@dominio.com.br">
         <button class="button button_confirm">Adicionar horário</button>
-        <a href="index.php" class="link_back">Voltar para a Página inicial</a>
+        <a href="../index.php" class="link_back">Voltar para a Página inicial</a>
     </div>
     <div class="div_form">
         <h2>Horários configurados</h2>
