@@ -30,7 +30,7 @@ body{
 #body_wrapper{
     max-width: 650px;
     margin: 0 auto;
-    padding: 50px;
+    padding: 40px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -44,7 +44,8 @@ body{
     width: 300px;
     background-color: var(--color-white);
     font-size: 0.8em;
-    margin: 0 auto;
+    margin: 10px auto;
+    margin-bottom: 20px;
     padding: 15px 0;
     display: flex;
     flex-wrap: wrap;
@@ -161,4 +162,36 @@ body{
 
 .link_remove{
     color: var(red);
+}
+
+/* -------------------------------- Responsive -------------------------------- */
+
+@media (max-width: 750px){
+
+    .div_doctor{
+        width: 90%;
+        min-width: 280px;
+        margin: 10px auto;
+        padding: 15px;
+        font-size: 0.8em;
+        justify-content: flex-end;
+    }
+
+    .grid_even{
+        justify-content: space-evenly;
+    }
+
+    .name_title{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .button_sign_in{
+        margin-right: 5%;
+    }
+
+    .button_config{
+        margin: 5px;
+    }
 }
