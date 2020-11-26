@@ -1,21 +1,18 @@
 # Modelo de estrutura
-Modelo de estrutura para o teste de Desenvolvedor do Fácil Consulta
+Modelo de estrutura para o teste de Desenvolvedor do Fácil Consulta utilizando uma estrutura completa de back-end e front-end sem frameworks.
 
 ## Como usar
-Clone ou faça um Fork desse repositorio.
-
-Desenvolva o que foi solicitado no teste, utilizando esse modelo.
-
-## Recomendações
-As configurações de conexão com o Banco de Dados devem estar no arquivo src/model/config-banco-dados.php
-
-A configuração da URL base, caso necessário, deve estar no arquivo src/config.php
-
-O arquivo de importação, contendo a estrutura e dados de exemplos, do Banco de Dados deve estar na pasta banco-dados
+Clone ou faça um Fork desse repositorio. Com o projeto local é só utilizar seu servidor ou simulador de servidor da sua preferência para rodar o projeto. 
 
 ## Informações
-A entrega do teste deve conter um README informando o que foi utilizado, veja o exemplo:
+Para a execução deste teste utilizei as seguintes configurações:
 
-* PHP 5.4
-* Bootstrap 4
-* jQuery 3
+* PHP 7.1
+* MySQL 5.7
+* Biblioteca PDO
+* HTML 5
+* CSS 3
+
+## Dificuldades
+
+Encontrei dificuldade em preparar o ambiente no lado de servidor, porém após entender melhor o fluxo de execução a tarefa se tornou mais fácil.
