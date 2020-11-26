@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="header_wrapper">
-        <a href="../cadastro-medico.php" class="button button_sign_in">Cadastro de médico</a>
+        <a href="../view/cadastro-medico.php" class="button button_sign_in">Cadastro de médico</a>
     </div>
 </body>
 </html>
