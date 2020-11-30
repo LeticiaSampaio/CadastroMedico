@@ -13,8 +13,8 @@
 $host       = "localhost";
 $username   = "root";
 $password   = "root";
-$dbname     = "test_fc"; // will use later
-$dsn        = "mysql:host=$host;dbname=$dbname"; // will use later
+$dbname     = "teste_fc";
+$dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
               );

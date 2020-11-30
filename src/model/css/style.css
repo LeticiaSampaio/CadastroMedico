@@ -96,6 +96,16 @@ body{
     border-bottom: 1px solid var(--color-grey);
 }
 
+.message{
+    width: 300px;
+    height: 50px;
+    margin: 10px auto;
+    border: 1px solid var(--color-light-blue);
+    border-radius: 5px;
+    background-color: var(--color-white);
+    color: var(--color-light-blue);
+}
+
 /* -------------------------------- Buttons -------------------------------- */
 
 .button{
@@ -115,10 +125,6 @@ body{
     color: var(--color-light-blue);
 }
 
-.button_sign_in:link, :visited, :hover, :active{
-    text-decoration: none;
-}
-
 .button_confirm{
     width: 170px;
     height: 35px;
@@ -131,10 +137,6 @@ body{
     font-weight: 700;
 }
 
-.button_confirm:link, :visited, :hover, :active{
-    text-decoration: none;
-}
-
 .button_appointment{
     margin: 8px 0;
     padding: 5px 10px;
@@ -144,6 +146,11 @@ body{
     color: var(--color-white);
     font-weight: 700;
     text-decoration: none;
+}
+
+.booked{
+    background-color: var(--color-white);
+    color: var(--color-light-blue);
 }
 
 .button_appointment:active, :visited{
